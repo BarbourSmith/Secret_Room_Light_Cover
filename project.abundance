@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1872,
-      "y": 0.5634,
+      "x": 0.1852,
+      "y": 0.5662,
       "uniqueID": "id-10605",
       "name": "References",
       "topLevel": false,
@@ -145,6 +145,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-10617",
           "ap2ID": "id-10623"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-10623",
+          "ap2ID": "id-10607"
         }
       ],
       "fileTypeVersion": 1
@@ -3057,6 +3062,40 @@
       "fileTypeVersion": 1,
       "scaleToProjectUnits": true,
       "lastReloadedFromGithubAt": 1795376969151
+    },
+    {
+      "atomType": "Export",
+      "x": 0.5403,
+      "y": 0.1972,
+      "uniqueID": "id-11189",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "STL Tolerance",
+          "ioValue": 0.05
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Secret_Room_Light_Cover",
+          "currentEquation": "Secret_Room_Light_Cover"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Secret_Room_Light_Cover"
     }
   ],
   "allConnectors": [
@@ -3064,6 +3103,11 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-10629",
       "ap2ID": "id-11101"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-10629",
+      "ap2ID": "id-11189"
     },
     {
       "ap2Name": "Shape2",
