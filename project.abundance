@@ -288,7 +288,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 176
+                      "ioValue": 152
                     }
                   ]
                 },
@@ -312,7 +312,7 @@
                     },
                     {
                       "name": "zDist",
-                      "ioValue": -28
+                      "ioValue": -26
                     }
                   ]
                 }
@@ -359,7 +359,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 200
+                      "ioValue": 152
                     }
                   ]
                 },
@@ -383,7 +383,7 @@
                     },
                     {
                       "name": "zDist",
-                      "ioValue": -44
+                      "ioValue": -40
                     }
                   ]
                 }
@@ -430,7 +430,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 208
+                      "ioValue": 144
                     }
                   ]
                 },
@@ -454,7 +454,7 @@
                     },
                     {
                       "name": "zDist",
-                      "ioValue": -62
+                      "ioValue": -52
                     }
                   ]
                 }
@@ -501,7 +501,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 200
+                      "ioValue": 132
                     }
                   ]
                 },
@@ -525,7 +525,7 @@
                     },
                     {
                       "name": "zDist",
-                      "ioValue": -80
+                      "ioValue": -62
                     }
                   ]
                 }
@@ -572,7 +572,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 178
+                      "ioValue": 120
                     }
                   ]
                 },
@@ -596,7 +596,7 @@
                     },
                     {
                       "name": "zDist",
-                      "ioValue": -100
+                      "ioValue": -71
                     }
                   ]
                 }
@@ -643,7 +643,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 140
+                      "ioValue": 100
                     }
                   ]
                 },
@@ -667,7 +667,7 @@
                     },
                     {
                       "name": "zDist",
-                      "ioValue": -118
+                      "ioValue": -80
                     }
                   ]
                 }
@@ -1113,7 +1113,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": -128
+                  "ioValue": -90
                 }
               ]
             },
@@ -2797,8 +2797,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7817,
-      "y": 0.2761,
+      "x": 0.7798,
+      "y": 0.2592,
       "uniqueID": "id-11148",
       "name": "Cross-Section",
       "ioValues": [
