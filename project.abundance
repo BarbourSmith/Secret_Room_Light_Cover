@@ -1,13 +1,157 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-10602",
-    "name": "Secret_Room_Light_Cover",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-10602",
+  "name": "Secret_Room_Light_Cover",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-10603",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.1872,
+      "y": 0.5634,
+      "uniqueID": "id-10605",
+      "name": "References",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-10607",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Import",
+          "x": 0.1865,
+          "y": 0.7042,
+          "uniqueID": "id-10609",
+          "fileName": "AbundanceScan-2026-11-22_091649.glb",
+          "name": "Import",
+          "type": "GLB",
+          "repoOwner": "BarbourSmith",
+          "repoName": "Secret_Room_Light_Cover",
+          "SVGwidth": 10
+        },
+        {
+          "atomType": "Import",
+          "x": 0.3519,
+          "y": 0.5944,
+          "uniqueID": "id-10611",
+          "fileName": "E1DEBE78-641A-4F32-A403-5282D64F15A2.JPG",
+          "name": "Import",
+          "type": "JPG",
+          "repoOwner": "BarbourSmith",
+          "repoName": "Secret_Room_Light_Cover",
+          "SVGwidth": 10
+        },
+        {
+          "atomType": "Import",
+          "x": 0.4934,
+          "y": 0.7493,
+          "uniqueID": "id-10613",
+          "fileName": "B6B05D56-7BCE-4761-9594-0920C20D5A9E.JPG",
+          "name": "Import",
+          "type": "JPG",
+          "repoOwner": "BarbourSmith",
+          "repoName": "Secret_Room_Light_Cover",
+          "SVGwidth": 10
+        },
+        {
+          "atomType": "Import",
+          "x": 0.5489,
+          "y": 0.4986,
+          "uniqueID": "id-10615",
+          "fileName": "6A898AC5-D45A-4D79-B964-D47084F4D07E.JPG",
+          "name": "Import",
+          "type": "JPG",
+          "repoOwner": "BarbourSmith",
+          "repoName": "Secret_Room_Light_Cover",
+          "SVGwidth": 10
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.6289,
+          "y": 0.68,
+          "uniqueID": "id-10617",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": -14.48
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 5.93
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": -0.06
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7089,
+          "y": 0.8,
+          "uniqueID": "id-10623",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 179
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10609",
+          "ap2ID": "id-10617"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-10617",
+          "ap2ID": "id-10623"
+        }
+      ],
+      "fileTypeVersion": 1
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
