@@ -2705,8 +2705,7 @@
             },
             {
               "name": "height",
-              "ioValue": 10,
-              "currentEquation": "10"
+              "ioValue": 10
             }
           ]
         },
@@ -2802,8 +2801,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7798,
-      "y": 0.2592,
+      "x": 0.7851,
+      "y": 0.2704,
       "uniqueID": "id-11148",
       "name": "Cross-Section",
       "ioValues": [
